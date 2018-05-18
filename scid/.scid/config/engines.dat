@@ -1,0 +1,21 @@
+# Analysis engines list file for Scid 4.5.1 with UCI support
+
+engine {
+  Name stockfish-toga
+  Cmd  /usr/games/stockfish
+  Args {}
+  Dir  /home/leo/.scid
+  Elo  0
+  Time 1526323482
+  URL  {}
+  UCI 1
+  UCIoptions {}
+}
+
+engine {
+  Name Scidlet
+  Cmd  /usr/games/scidlet
+  Args {}
+  Dir  .
+
+
